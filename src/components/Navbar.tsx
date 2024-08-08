@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="bg-slate-950 flex items-center py-3 text-white justify-between px-24">
       <Link href={"/"}>
-        <h1>NextGoogle</h1>
+        <h1>Agenda Master</h1>
       </Link>
       {session?.user ? (
         <div className="flex gap-x-2 items-center">
