@@ -27,8 +27,9 @@ function Navbar() {
           <Dropdown />
         </div>
       ) : (
-        <button onClick={() => signIn()} className="bg-sky-400 px-3 py-2 rounded">
-          Sign In
+        
+        <button onClick={() => signIn()} className="bg-blue-600 text-white px-3 py-2 rounded">
+          Sign in with Google
         </button>
       )}
     </nav>
