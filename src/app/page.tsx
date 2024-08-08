@@ -53,6 +53,7 @@ export default function Home() {
               <div className="border rounded-lg mt-4 p-4 bg-white shadow-sm">
                 {/* Aquí iría el componente de calendario */}
                 <p>Calendar component will be here</p>
+                
               </div>
             </div>
 
